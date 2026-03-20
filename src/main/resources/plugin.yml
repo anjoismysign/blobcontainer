@@ -1,0 +1,11 @@
+name: BlobContainer
+version: ${project.version}
+main: io.github.anjoismysign.blobcontainer.BlobContainer
+api-version: ${minecraft.version}
+load: POSTWORLD
+depend:
+  - BlobLib
+authors: [ anjoismysign ]
+commands:
+  blobcontainer:
+    description: info blobcontainer
