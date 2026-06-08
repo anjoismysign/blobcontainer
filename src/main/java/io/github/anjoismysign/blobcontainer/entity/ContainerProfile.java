@@ -82,10 +82,8 @@ public class ContainerProfile implements Crudable, PlayerDecoratorAware, PostLoa
             Bukkit.getPluginManager().callEvent(loadEvent);
         };
         if (Bukkit.isPrimaryThread()){
-            plugin().getLogger().info("setPlayerDecorator on primary thread");
             syncRunnable.run();
         } else {
-            plugin().getLogger().info("setPlayerDecorator on async thread");
             Bukkit.getScheduler().runTask(plugin(), syncRunnable);
         }
     }
