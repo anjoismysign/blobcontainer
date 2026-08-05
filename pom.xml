@@ -6,12 +6,12 @@
 
     <groupId>io.github.anjoismysign</groupId>
     <artifactId>blobcontainer</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <name>BlobContainer</name>
 
     <properties>
         <minecraft.version>1.21.5</minecraft.version>
-        <java.version>17</java.version>
+        <java.version>25</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
