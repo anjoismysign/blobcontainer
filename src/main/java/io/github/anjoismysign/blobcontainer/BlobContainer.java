@@ -3,8 +3,8 @@ package io.github.anjoismysign.blobcontainer;
 import io.github.anjoismysign.blobcontainer.command.BlobContainerCommand;
 import io.github.anjoismysign.blobcontainer.director.ContainerManagerDirector;
 import io.github.anjoismysign.blobcontainer.entity.ContainerProfile;
-import io.github.anjoismysign.bloblib.managers.BlobPlugin;
-import io.github.anjoismysign.bloblib.managers.cruder.ChunkedAccountCruder;
+import io.github.anjoismysign.bloblib.manager.BlobPlugin;
+import io.github.anjoismysign.bloblib.manager.cruder.ChunkedAccountCruder;
 import org.bukkit.Bukkit;
 
 public final class BlobContainer extends BlobPlugin {

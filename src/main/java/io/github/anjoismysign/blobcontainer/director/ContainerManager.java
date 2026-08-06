@@ -1,7 +1,7 @@
 package io.github.anjoismysign.blobcontainer.director;
 
 import io.github.anjoismysign.blobcontainer.BlobContainer;
-import io.github.anjoismysign.bloblib.entities.GenericManager;
+import io.github.anjoismysign.bloblib.manager.GenericManager;
 
 public class ContainerManager extends GenericManager<BlobContainer, ContainerManagerDirector> {
     public ContainerManager(ContainerManagerDirector managerDirector) {
