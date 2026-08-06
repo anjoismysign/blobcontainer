@@ -1,6 +1,6 @@
 package io.github.anjoismysign.blobcontainer.entity;
 
-import io.github.anjoismysign.bloblib.utilities.ItemStackUtil;
+import io.github.anjoismysign.bloblib.utility.ItemStackUtil;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.Nullable;
 

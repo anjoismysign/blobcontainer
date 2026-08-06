@@ -3,7 +3,7 @@ package io.github.anjoismysign.blobcontainer.director;
 import io.github.anjoismysign.blobcontainer.BlobContainer;
 import io.github.anjoismysign.blobcontainer.director.manager.ContainerConfigurationManager;
 import io.github.anjoismysign.blobcontainer.director.manager.PlayerContainerManager;
-import io.github.anjoismysign.bloblib.entities.GenericManagerDirector;
+import io.github.anjoismysign.bloblib.manager.GenericManagerDirector;
 import org.jetbrains.annotations.NotNull;
 
 public class ContainerManagerDirector extends GenericManagerDirector<BlobContainer> {

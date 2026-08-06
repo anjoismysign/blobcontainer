@@ -1,4 +1,0 @@
-BlobContainer:
-  Container-Doesnt-Exist:
-    Type: CHAT
-    Message: 'Container ''%container%'' doesn''t exist'

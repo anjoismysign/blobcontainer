@@ -1,6 +1,5 @@
 package io.github.anjoismysign.blobcontainer.command;
 
-import io.github.anjoismysign.blobcontainer.BlobContainer;
 import io.github.anjoismysign.blobcontainer.BlobContainerAPI;
 import io.github.anjoismysign.blobcontainer.api.ContainerOwner;
 import io.github.anjoismysign.blobcontainer.configuration.ContainerConfiguration;
