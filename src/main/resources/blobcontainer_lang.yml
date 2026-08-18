@@ -1,4 +1,3 @@
 BlobContainer:
   Container-Doesnt-Exist:
-    Type: CHAT
-    Message: 'Container ''%container%'' doesn''t exist'
+    Chat: 'Container ''%container%'' doesn''t exist'
