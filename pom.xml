@@ -93,4 +93,12 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub anjoismysign Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/anjoismysign/blobcontainer</url>
+        </repository>
+    </distributionManagement>
+
 </project>
